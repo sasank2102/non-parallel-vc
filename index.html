@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Non-parallel VC Samples</title>
+</head>
+<body>
+<center><h2>Non-parallel Voice Conversion Samples</h2></center>
+
+  <p>
+ <b>Table Columns</b>  <br><br>
+  <b>src:</b> orginal source wav <br>
+  <b>tgt:</b> orginal target wav <br>
+  <b>gmm:</b> parallel voice conversion  <br>
+  <b>ppg seq2seq:</b> phoneme recognition + seq2seq non-parallel voice conversion  <br>
+  <b>ubm seq2seq:</b> ubm codebook + seq2seq non-parallel voice conversion <br>
+   </p>
+  <br>
+
+
+<b> Male to Male </b>
+
+<table style="width:100%;" border="1">
+  <tr>
+    <td>src</td>
+    <td>tgt</td>
+    <td>gmm</td>
+    <td>ppg seq2seq</td>
+    <td>ubm seq2seq</td>
+  </tr>  
+
+
+<tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/bdl_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/bdl_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/bdl_rms/arctic_a0515_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/bdl_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/bdl_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+</tr>
+<tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/bdl_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/bdl_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/bdl_rms/arctic_a0550_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/bdl_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/bdl_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+</tr>
+</table>
+
+<br>
+<b> Female to Female </b>
+
+<table style="width:100%;" border="1">
+  <tr>
+    <td>src</td>
+    <td>tgt</td>
+    <td>gmm</td>
+    <td>ppg seq2seq</td>
+    <td>ubm seq2seq</td>
+  </tr> 
+
+  <tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/arctic_a0515_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/arctic_a0515.wav type="audio/wav">     </audio></td>
+</tr><tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/clb_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/clb_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/clb_slt/arctic_a0515_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/clb_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/clb_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+</tr>
+<tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/clb_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/clb_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/clb_slt/arctic_a0550_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/clb_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/clb_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+</tr>
+
+</table>
+<br>
+
+<b> Male to Female </b>
+
+<table style="width:100%;" border="1">
+  <tr>
+    <td>src</td>
+    <td>tgt</td>
+    <td>gmm</td>
+    <td>ppg seq2seq</td>
+    <td>ubm seq2seq</td>
+  </tr>  
+</table>
+
+<tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/bdl_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/bdl_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/bdl_slt/arctic_a0515_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/bdl_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/bdl_slt/arctic_a0515.wav type="audio/wav">     </audio></td>
+</tr>
+<tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/bdl_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/bdl_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/bdl_slt/arctic_a0550_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/bdl_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/bdl_slt/arctic_a0550.wav type="audio/wav">     </audio></td>
+</tr>
+
+<br>
+
+<b> Female to Male </b>
+
+<table style="width:100%;" border="1">
+  <tr>
+    <td>src</td>
+    <td>tgt</td>
+    <td>gmm</td>
+    <td>ppg seq2seq</td>
+    <td>ubm seq2seq</td>
+  </tr>  
+
+  <tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/clb_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/clb_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/clb_rms/arctic_a0515_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/clb_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/clb_rms/arctic_a0515.wav type="audio/wav">     </audio></td>
+</tr>
+<tr>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/src/clb_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/tgt/clb_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/gmm/clb_rms/arctic_a0550_VC.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ppgvc/clb_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+<td style="width:250px;"><audio controls style="width:250px;">         <source src=wav/ubmppgvc/clb_rms/arctic_a0550.wav type="audio/wav">     </audio></td>
+</tr>
+
+
+</table>
+<br>
+
+
+
+</body>
+</html>
